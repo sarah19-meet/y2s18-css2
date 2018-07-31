@@ -8,11 +8,31 @@ h1 {
     text-align: center;
 }
 
+#important_paragraph:hover{
+	background: yellow;
+	font-size: 40px;
+}
+
+.less_important_paragraph:hover{
+	color:blue
+}
+
+#hidden_div{display: none;
+}
+
+#span_cover:hover+#hidden_div{
+	display: block;
+}
+
 p {
     color: green;
     font-size: 24pt;
 }
 
 a {
-    color:red;
+    color: red;
+}
+
+a:hover {
+	color: blue;
 }
